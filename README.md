@@ -160,3 +160,6 @@ Be prepared to handle failures caused by speech recognition limits. Because spee
 Plan for a one-minute limit on audio duration. Speech recognition places a relatively high burden on battery life and network usage. To minimize this burden, the framework stops speech recognition tasks that last longer than one minute. This limit is similar to the one for keyboard-related dictation. Remind the user when your app is recording. For example, display a visual indicator and play sounds at the beginning and end of speech recognition to help users understand that they're being actively recorded. You can also display speech as it is being recognized so that users understand what your app is doing and see any mistakes made during the recognition process.
 
 Do not perform speech recognition on private or sensitive information. Some speech is not appropriate for recognition. Don't send passwords, health or financial data, and other sensitive speech for recognition.
+    
+    
+    https://pub.dev/packages/speech_to_text
